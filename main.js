@@ -164,3 +164,19 @@ heart.forEach((el, i) => {
     likes[i].textContent = howManyLikes;
   };
 });
+
+// seccionPrincipal.innerHTML = ``
+// const completarTarjetas = gatos.map((gato) => {
+
+//   seccionPrincipal.innerHTML += `
+//   <div class="card">
+//     <div class="card_img">
+//     <img src="${gato.img}" />
+//     </div>
+//     <div class="card_info">
+//     <h3>${gato.name}</h3>
+//     <p>${gato.shortDesc}<p>
+//     <button>Ver mas</button>
+//     </div>
+//   </div>
+// `
